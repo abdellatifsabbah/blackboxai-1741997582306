@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Short URL - Total Clicks</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50">
+    <div class="container mx-auto px-4 py-8 max-w-3xl">
+        <h1 class="text-4xl font-bold text-center text-blue-500 mb-12">Short URL</h1>
+        
+        <div class="bg-white rounded-lg shadow-md p-8">
+            <h2 class="text-3xl font-semibold text-gray-700 mb-4">Total URL Clicks</h2>
+            <p class="text-gray-600 mb-6">The number of clicks from the shortened URL that redirected the user to the destination page.</p>
+            
+            <div class="mb-8">
+                <a href="https://shorturl.at/NjwSF" class="text-blue-500 hover:text-blue-600 text-lg">
+                    shorturl.at/NjwSF
+                </a>
+            </div>
+            
+            <div class="text-center mb-8">
+                <span class="text-6xl font-bold text-gray-800">0</span>
+            </div>
+            
+            <div class="flex flex-col sm:flex-row gap-4">
+                <button class="bg-blue-500 text-white px-6 py-3 rounded hover:bg-blue-600 transition-colors w-full sm:w-auto">
+                    Track clicks from another short URL
+                </button>
+                <button class="bg-blue-500 text-white px-6 py-3 rounded hover:bg-blue-600 transition-colors w-full sm:w-auto">
+                    Shorten another URL
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
